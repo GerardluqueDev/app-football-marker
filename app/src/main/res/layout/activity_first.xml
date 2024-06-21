@@ -30,14 +30,14 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.024" />
+            app:layout_constraintVertical_bias="0.003" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="22dp"
             android:backgroundTint="@color/grey"
             android:selectAllOnFocus="false"
             android:text="@string/_1subtractionLocal"
@@ -56,7 +56,7 @@
             android:id="@+id/result_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="6dp"
             android:text="@string/_0resultLocal"
             android:textColor="@color/white"
             android:textSize="60sp"
@@ -71,7 +71,7 @@
             android:id="@+id/button2"
             android:layout_width="88dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="22dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/grey"
             android:selectAllOnFocus="false"
@@ -86,12 +86,13 @@
             app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
 
+
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="22dp"
             android:backgroundTint="@color/grey"
             android:selectAllOnFocus="false"
             android:text="@string/_1subtractionVisit"
@@ -99,12 +100,11 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/text_visit"
             app:layout_constraintEnd_toStartOf="@+id/result_visit"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.036"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button1"
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="MissingConstraints" />
-
 
         <TextView
             android:id="@+id/result_visit"
@@ -126,7 +126,7 @@
             android:layout_width="88dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="22dp"
             android:backgroundTint="@color/grey"
             android:selectAllOnFocus="false"
             android:text="@string/_1additionVisit"
@@ -134,7 +134,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/text_visit"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.963"
             app:layout_constraintStart_toEndOf="@+id/result_visit"
             app:layout_constraintTop_toBottomOf="@+id/button2"
             app:layout_constraintVertical_bias="1.0"
@@ -156,12 +156,12 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.98" />
+            app:layout_constraintVertical_bias="0.997" />
 
         <ImageView
             android:id="@+id/image_football"
-            android:layout_width="131dp"
-            android:layout_height="101dp"
+            android:layout_width="101dp"
+            android:layout_height="81dp"
             android:contentDescription="@string/image_football"
             android:src="@drawable/footbol"
             app:layout_constraintBottom_toTopOf="@+id/result_visit"
@@ -181,6 +181,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/button4"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toEndOf="@+id/image_football"
             app:layout_constraintTop_toBottomOf="@+id/button2" />
 
