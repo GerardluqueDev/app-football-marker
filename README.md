@@ -11,16 +11,24 @@ La aplicación Football Score es una herramienta sencilla para llevar el control
 - Notificación del equipo ganador o si fue un empate.
 
 ## Capturas de Pantalla
-![Pantalla de Inicio](img/pant1.png)
+### Pantalla de Inicio
+<img src="img/pant1.png" alt="Pantalla de Inicio" width="300"/>
+
 *Pantalla de inicio de la aplicación.*
 
-![Pantalla con Marcadores a 0](img/pant2.png)
+### Pantalla con Marcadores a 0 y Texto Vacío
+<img src="img/pant2.png" alt="Pantalla con Marcadores a 0 y Texto Vacío" width="300"/>
+
 *Pantalla con los marcadores a 0 y los campos de texto vacíos.*
 
-![Pantalla con Uso de Marcadores](img/pant2-1.png)
+### Pantalla con Uso de Marcadores y Nombres de Equipos
+<img src="img/pant2-1.png" alt="Pantalla con Uso de Marcadores y Nombres de Equipos" width="300"/>
+
 *Pantalla con los marcadores actualizados y los nombres de los equipos.*
 
-![Pantalla Final con Resultado](img/pant3.png)
+### Pantalla Final con Resultado del Partido
+<img src="img/pant3.png" alt="Pantalla Final con Resultado del Partido" width="300"/>
+
 *Pantalla final mostrando el resultado del partido.*
 
 ## Video Demostrativo
